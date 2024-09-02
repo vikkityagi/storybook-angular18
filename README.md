@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## To add the story book with angular
+
+1.  ng new my-angular-app
+2.  npx storybook@latest init
+3.  To add any component in story book /src/stories  make the component like this story-book.component.stories.ts
+4.  npm run storybook
